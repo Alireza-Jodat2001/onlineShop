@@ -14,14 +14,14 @@ export default function CartProducts() {
 
                 return (
                     <div key={key} className="bg-dark cart_products rounded pt-4">
-                        <div className="text-center">
-                            <img src={image} className="products_img rounded" />
+                        <div className="img_container text-center mx-auto bg-white rounded">
+                            <img src={image[0]} className="products_img rounded" />
                         </div>
 
                         <p className="text-light pt-4 px-4 text-justify overflow-hidden title">{title}</p>
 
                         <div className="px-4">
-                            <p className="text-light">${price}</p>
+                            <p className="text-light">{price}</p>
                         </div>
 
                         <div className="px-4 d-flex justify-content-between align-items-center">

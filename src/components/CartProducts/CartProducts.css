@@ -6,6 +6,10 @@
     height: 320px;
 }
 
+.cart_products .img_container {
+    max-width: 80%;
+}
+
 .cart_products img {
     max-height: 130px;
 }

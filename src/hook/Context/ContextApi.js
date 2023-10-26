@@ -6,7 +6,7 @@ export const ContextApi = createContext()
 
 export function ContextApiProvider({ children }) {
     const { response , isLoading , error } = useAxios('/products')
-        
+    
     const value = {
         response
     }

@@ -6,7 +6,7 @@ export default function useAxios(params) {
     const [isLoading , setIsLoading] = useState()
     const [error , setError] = useState()
 
-    axios.defaults.baseURL = 'https://fakestoreapi.com'
+    axios.defaults.baseURL = 'http://localhost:8000'
 
     async function fetchData(url) {
         try {

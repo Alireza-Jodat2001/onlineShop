@@ -49,11 +49,11 @@ body {
 }
 
 * .open {
-  animation: fade-in 0.4s forwards;
+  animation: fade-in 0.3s forwards;
 }
 
 * .closing {
-  animation: fade-out 0.4s forwards;
+  animation: fade-out 0.3s forwards;
 }
 
 * .close {

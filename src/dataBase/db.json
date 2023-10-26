@@ -1,0 +1,174 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "iPhone 13",
+            "price": "From $599",
+            "category": "phone",
+            "description": "As amazing as ever.",
+            "image": [
+                "https://api2.zoomit.ir/media/638bb6b9e60c0026b8253676?w=540&q=75",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-finish-unselect-gallery-1-202207_GEO_US?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1654894184756",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-finish-unselect-gallery-2-202207?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1654894177855",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-finish-unselect-gallery-3-202207_GEO_US?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1654894175204",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-13-finish-unselect-gallery-4-202207?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1654894186187"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "iPhone SE",
+            "price": "From $429",
+            "category": "phone",
+            "description": "Serious power. Serious value.",
+            "image": [
+                "https://api2.zoomit.ir/media/652d045f8716201626d0ad19?w=540&q=75",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-finish-unselect-gallery-1-202207?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1655249921393",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-finish-unselect-gallery-2-202207?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1655249916900",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-finish-unselect-gallery-3-202207?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1655249913137",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-finish-unselect-gallery-4-202207?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1655249929536"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "iPhone 14",
+            "price": "From $699",
+            "category": "phone",
+            "description": "As amazing as ever.",
+            "image": [
+                "https://api2.zoomit.ir/media/638c69b0726d1ad06b7934e2?w=540&q=75",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-model-unselect-gallery-1-202209?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1660689596976",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-14-model-unselect-gallery-2-202303_GEO_US?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1676930656150"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "iPhone 15",
+            "price": "From $799",
+            "category": "phone",
+            "description": "A total powerhouse.",
+            "image": [
+                "https://api2.zoomit.ir/media/652d21128716201626d17671?w=540&q=75",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-model-unselect-gallery-1-202309?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1692810665888",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-model-unselect-gallery-2-202309_GEO_US?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1692925254305"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "iPhone 15 Pro",
+            "price": "From $999",
+            "category": "phone",
+            "description": "The ultimate iPhone.",
+            "image": [
+                "https://api2.zoomit.ir/media/652d2111eb21a6b54f513480?w=540&q=75",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-model-unselect-gallery-1-202309?wid=5120&hei=2880&fmt=p-jpg&qlt=80&.v=1693010533609",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-model-unselect-gallery-2-202309_GEO_US?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1693010535312"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Samsung Galaxy S23 Ultra",
+            "price": "From $1199.99",
+            "category": "phone",
+            "description": "",
+            "image": [
+                "https://api2.zoomit.ir/media/652d05458716201626d0d476?w=540&q=75",
+                "https://image-us.samsung.com/SamsungUS/configurator/S23U-V2-Configurator-DT-800x600.jpg?$product-details-jpg$",
+                "https://image-us.samsung.com/us/smartphones/galaxy-s23/configurator/D3-lifestyle-Configurator-800x600.jpg?$product-details-jpg$",
+                "https://image-us.samsung.com/us/smartphones/galaxy-s23/configurator/DB2C-328-GalleryVideo-S23Ultra-AnimatedVideo_Filled_lastFrame.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Samsung Galaxy S23+",
+            "price": "From $999.99",
+            "category": "phone",
+            "description": "",
+            "image": [
+                "https://api2.zoomit.ir/media/652d05418716201626d0d3f6?w=540&q=75",
+                "https://image-us.samsung.com/us/smartphones/galaxy-s23/configurator/D1_D2-KV-Configurator-800x600.jpg?$product-details-jpg$",
+                "https://image-us.samsung.com/us/smartphones/galaxy-s23/configurator/D1_D2-Exclusive-Configurator-DT-800x600.jpg?$product-details-jpg$",
+                "https://image-us.samsung.com/SamsungUS/configurator/S23-V2-Configurator-DT-800x600.jpg?$product-details-jpg$"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Samsung Galaxy Z Fold5",
+            "price": "From $1799.99",
+            "category": "phone",
+            "description": "",
+            "image": [
+                "https://api2.zoomit.ir/media/652d2077eb21a6b54f51150f?w=540&q=75",
+                "https://image-us.samsung.com/us/smartphones/galaxy-z-fold5/configurator/02-exclusive-Zfold5-Configurator-800x600.jpg?$product-details-jpg$",
+                "https://image-us.samsung.com/us/smartphones/galaxy-z-fold5/configurator/04-feature-gaming-Zfold5-Configurator-800x600.jpg?$product-details-jpg$",
+                "https://image-us.samsung.com/us/smartphones/galaxy-z-fold5/configurator/05-lifestyle-gaming-Zfold5-Configurator-800x600.jpg?$product-details-jpg$"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Samsung Galaxy Z Flip5",
+            "price": "From $999.99",
+            "category": "phone",
+            "description": "",
+            "image": [
+                "https://api2.zoomit.ir/media/652d20758716201626d1563b?w=540&q=75",
+                "https://image-us.samsung.com/us/smartphones/galaxy-z-flip5/configurator/02-Zflip5-Configurator-800x600.jpg?$product-details-jpg$",
+                "https://image-us.samsung.com/SamsungUS/PIM/Gallery-B5-800x600_1-Launch_______2.jpg?$product-details-jpg$",
+                "https://image-us.samsung.com/us/smartphones/galaxy-z-flip5/configurator/08-lifestyle-Zflip5-Configurator-800x600.jpg?$product-details-jpg$"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Nothing Phone 2",
+            "price": "From $769.46",
+            "category": "phone",
+            "description": "",
+            "image": [
+                "https://api2.zoomit.ir/media/652d207ceb21a6b54f511612?w=540&q=75",
+                "https://fr.nothing.tech/cdn/shop/files/Phone-2-PDP-Glyph-Header-Desktop.jpg?v=1688993546&width=1500",
+                "https://fr.nothing.tech/cdn/shop/files/Phone-2-PDP-OS-Header-Desktop.jpg?v=1688993546&width=1500",
+                "https://fr.nothing.tech/cdn/shop/files/Phone-2-PDP-Premium-Header-Desktop_463afeef-cfae-4628-9583-e231a04bee4a.jpg?v=1689030314&width=1500"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Mac Book Pro 16-inch",
+            "price": "From $3,499.00",
+            "category": "laptop",
+            "description": "",
+            "image": [
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spacegray-select-202301?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1671304673202",
+                "https://www.apple.com/v/macbook-pro-14-and-16/e/images/overview/hero/hero_intro__cww8m2vra4uq_large.jpg",
+                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mac-compare-202306?wid=1926&hei=688&fmt=jpeg&qlt=90&.v=1684172461717",
+                "https://www.apple.com/v/macbook-pro-14-and-16/e/images/overview/performance/choose_size__b11uc4j8f36u_large.jpg",
+                "https://www.apple.com/v/macbook-pro-14-and-16/e/images/overview/performance/screen_processing__f36dk3ge7wey_large.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "iMac M1 Chip",
+            "price": "From $1,699.00",
+            "category": "pc",
+            "description": "",
+            "image": [
+                "https://image.torob.com/base/images/NB/xh/NBxhVXlV4UilbYWz.jpg_/280x280.webp",
+                "https://www.apple.com/newsroom/images/product/imac/standard/apple_new-imac-spring21_hero_04202021_Full-Bleed-Image.jpg.large.jpg",
+                "https://images.expertreviews.co.uk/wp-content/uploads/2021/05/m1_apple_imac_24in_review_-_0004.jpeg?width=626&height=352&fit=crop&format=webply",
+                "https://images.expertreviews.co.uk/wp-content/uploads/2021/05/m1_apple_imac_24in_review_-_0007.jpeg?width=626&height=352&fit=crop&format=webply",
+                "https://images.expertreviews.co.uk/wp-content/uploads/2021/05/m1_apple_imac_24in_review_-_0006.jpeg?width=626&height=352&fit=crop&format=webply"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "TUF Gaming F15 FX507ZU",
+            "price": "From $1,099.00",
+            "category": "laptop",
+            "description": "",
+            "image": [
+                "https://www.technolife.ir/image/color_image_TLP-28031_8f8f8f_254c4825-687d-453d-a144-b57a2dc669a9.png",
+                "https://www.technolife.ir/image/asus%20tuf%20gaming%20(3)_c645d23f-e545-49e7-a8e1-3d35a857ab78.jpg",
+                "https://www.technolife.ir/image/asus%20tuf%20gaming%20(2)_475dcb20-f7c2-41ca-9c2d-16fbd54d29a2.jpg",
+                "https://cdn.mos.cms.futurecdn.net/ETtYYqoyR5RuV4Td3TtSZg-768-80.jpeg.webp"
+            ]
+        }
+    ]
+}
