@@ -1,42 +1,40 @@
-import { useReducer , createContext } from 'react'
+// import { useReducer, createContext } from 'react'
+// import { FaRegSun, FaRegMoon } from 'react-icons/fa'
+// import { InitialstateTheme, ThemeReducerFunc } from '../Reducer/ThemeReducer'
 
-import { FaRegSun , FaRegMoon } from 'react-icons/fa'
+// export const ThemeContext = createContext()
 
-import { InitialstateTheme , ThemeReducerFunc } from '../Reducer/ThemeReducer'
+// export function ThemeContextProvider({ children }) {
+//   const [ThemeState, dispatchTheme] = useReducer(ThemeReducerFunc, InitialstateTheme)
 
-export const ThemeContext = createContext()
+//   function handleTheme(ThemeState) {
+//     const dark = {
+//       id: 'dark',
+//       icon: <FaRegSun />,
+//       navbar: 'navDark',
+//       login: 'loginDark',
+//       home: 'homeDark'
+//     }
+//     const light = {
+//       id: 'light',
+//       icon: <FaRegMoon />,
+//       navbar: 'navLight',
+//       login: 'loginLight',
+//       home: 'homeLight'
+//     }
 
-export function ThemeContextProvider({ children }) {
-    const [ThemeState , dispatchTheme] = useReducer(ThemeReducerFunc , InitialstateTheme)
+//     return { type: 'changeTheme', theme: ThemeState.id === 'dark' ? light : dark }
+//   }
 
-    function handleTheme(ThemeState) {
-        const dark = {
-            id: 'dark',
-            icon: <FaRegSun />,
-            navbar: 'navDark',
-            login: 'loginDark',
-            home: 'homeDark'
-        }
-        const light = {
-            id: 'light',
-            icon: <FaRegMoon />,
-            navbar: 'navLight',
-            login: 'loginLight',
-            home: 'homeLight'
-        }
-    
-        return {type: 'changeTheme' , theme: ThemeState.id === 'dark' ? light : dark}
-    }
+//   const value = {
+//     ThemeState,
+//     navbar: ThemeState.navbar,
+//     icon: ThemeState.icon,
+//     home: ThemeState.home,
+//     login: ThemeState.login,
+//     dispatchTheme,
+//     handleTheme
+//   }
 
-    const value = {
-        ThemeState, 
-        navbar: ThemeState.navbar,
-        icon: ThemeState.icon,
-        home: ThemeState.home,
-        login: ThemeState.login,
-        dispatchTheme,
-        handleTheme
-    }
-
-    return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>
-}
+//   return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>
+// }

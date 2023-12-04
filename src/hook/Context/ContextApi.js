@@ -1,15 +1,14 @@
-import { createContext } from "react"
+import { createContext } from "react";
+import useAxios from "../axios/useAxios";
 
-import useAxios from "../axios/useAxios"
-
-export const ContextApi = createContext()
+export const ContextApi = createContext();
 
 export function ContextApiProvider({ children }) {
-    const { response , isLoading , error } = useAxios('/products')
-    
-    const value = {
-        response
-    }
+  const { response, isLoading, error } = useAxios("/products");
 
-    return <ContextApi.Provider value={value}>{ children }</ContextApi.Provider>
+  const value = {
+    response,
+  };
+
+  return <ContextApi.Provider value={value}>{children}</ContextApi.Provider>;
 }

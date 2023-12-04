@@ -1,27 +1,22 @@
-import { useContext } from 'react'
-import { Link } from 'react-router-dom'
+import { useContext } from "react";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
+import { EventContext } from "../../hook/Context/EventContext";
+import SearchField from "../SearchField/SearchField";
+import NavbarButtons from "../NavbarButtons/NavbarButtons";
 
-import './Navbar.css'
+export default function Navbar({ searchbar, to, textButton }) {
+  const { navRef } = useContext(EventContext);
 
-import { ThemeContext } from '../../hook/Context/ThemeContext'
-import { EventContext } from '../../hook/Context/EventContext'
-
-import SearchField from '../SearchField/SearchField'
-import NavbarButtons from '../NavbarButtons/NavbarButtons'
-
-export default function Navbar({ searchbar , to , textButton }) {
-    const { navbar } = useContext(ThemeContext)
-    const { navRef } = useContext(EventContext)
-
-    return (
-        <nav className={`${navbar} py-3`} ref={navRef}>
-            <div className="container d-flex justify-content-between align-items-center px-0">
-                <Link to='/' className="display-6 logo">Online shop</Link>
-
-                {searchbar && <SearchField />}
-
-                <NavbarButtons to={to} textButton={textButton} />
-            </div>
-        </nav>
-    )
+  return (
+    <nav className={`py-5 z-10 sticky top-0 dark:bg-gray-900`} ref={navRef}>
+      <div className="container flex justify-between items-center md:px-16">
+        <Link to="/" className="text-4xl dark:text-slate-300 font-semibold">
+          Online shop
+        </Link>
+        {searchbar && <SearchField />}
+        <NavbarButtons to={to} textButton={textButton} />
+      </div>
+    </nav>
+  );
 }

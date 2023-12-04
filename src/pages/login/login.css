@@ -1,30 +1,8 @@
 .login {
     width: 450px;
-    margin: 55px 50% 0px;
-    transform: translateX(-50%);
 }
 .login > div {
-    width: 75%;
     height: 90px;
-}
-.login input {
-    outline: none;
-    border-bottom: 1px solid !important;
-}
-.login > div:last-child {
-    gap: 10px;
-    height: 75px;
-}
-.login > div:last-child > a {
-    cursor: default;
-}
-.login > div:last-child button {
-    border: 1px solid !important;
-}
-.showButton {
-    right: 5px;
-    top: 0px;
-    font-size: 20px;
 }
 .disabled {
     cursor: default;
@@ -39,9 +17,6 @@
 .loginDark > .login {
     background: #23272f;
     box-shadow: 4px 4px 15px rgb(0, 0, 0, 0.6);
-}
-.loginDark > .login h4 {
-    color: #ebecf0;
 }
 .loginDark > .login input,
 .loginDark > .login input::placeholder, 
