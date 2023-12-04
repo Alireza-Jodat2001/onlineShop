@@ -33,7 +33,7 @@ export default function CartProducts() {
                   </p>
                 </div>
 
-                <div className="px-7 flex justify-between items-center mt-7 grid grid-cols-5">
+                <div className="px-7 justify-between items-center mt-7 grid grid-cols-5">
                   <button className="bg-sky-700 border-0 rounded-md add_btn py-1 col-start-1 col-end-3">
                     Add
                   </button>
