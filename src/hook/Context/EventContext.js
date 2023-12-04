@@ -1,4 +1,4 @@
-import { createContext, useReducer, useRef } from "react";
+import { createContext, useEffect, useReducer, useRef } from "react";
 import { EventReducerFunc, InitialstateEvent } from "../Reducer/EventReducer";
 
 export const EventContext = createContext();
@@ -17,6 +17,10 @@ export function EventContextProvider({ children }) {
       searchInputRef.current.focus();
     }
   });
+
+  useEffect(() => {
+    document.body.classList.add("dark");
+  }, []);
 
   window.addEventListener("click", (event) => clickOutside(event));
 

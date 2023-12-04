@@ -7,7 +7,7 @@ import "./home.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className="dark:bg-gray-700">
       <Backdrop />
       <Navbar searchbar={true} to={"/Login"} textButton={"Login"} />
       <CartProducts />

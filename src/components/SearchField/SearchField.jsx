@@ -35,7 +35,7 @@ export default function SearchField() {
           <span>Q</span>
         </div>
       </form>
-      <div className={`${searchPreset} rounded-md mt-3 absolute w-full`}>
+      <div className={`${searchPreset} rounded-md mt-3 absolute w-full dark:bg-gray-700 p-3 dark:text-slate-200`}>
         Not found result...
       </div>
     </div>

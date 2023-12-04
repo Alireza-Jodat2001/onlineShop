@@ -15,7 +15,7 @@ export default function NavbarButtons({ to, textButton }) {
           clickoutside=""
         >
           <button
-            className="border-0 px-3 rounded-md h-10 bg-transparent hover:bg-gray-700"
+            className="border-0 px-3 rounded-md h-10 bg-transparent hover:bg-gray-700 focus:bg-gray-700"
             onClick={() => {
               dispatchEvent(
                 dropdown == "open"
@@ -37,7 +37,7 @@ export default function NavbarButtons({ to, textButton }) {
           </button>
 
           <div
-            className={`dark:bg-gray-700 absolute rounded-md mt-3 px-3 w-56`}
+            className={`${dropdown} dark:bg-gray-700 absolute rounded-md mt-3 px-3 w-56`}
           >
             <div>
               <div className="text-center py-3">
@@ -48,7 +48,7 @@ export default function NavbarButtons({ to, textButton }) {
                   height="50px"
                 />
               </div>
-              <div>
+              <div className="mb-6">
                 <h5 className="text-center m-0 text-ellipsis w-52 whitespace-nowrap overflow-hidden">
                   {verified.usernameVerified}
                 </h5>

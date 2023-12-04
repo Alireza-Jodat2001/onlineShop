@@ -9,7 +9,10 @@ export default function Navbar({ searchbar, to, textButton }) {
   const { navRef } = useContext(EventContext);
 
   return (
-    <nav className={`py-5 z-10 sticky top-0 dark:bg-gray-900`} ref={navRef}>
+    <nav
+      className={`py-5 z-10 sticky top-0 dark:bg-gray-900`}
+      ref={navRef}
+    >
       <div className="container flex justify-between items-center md:px-16">
         <Link to="/" className="text-4xl dark:text-slate-300 font-semibold">
           Online shop
