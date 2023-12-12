@@ -1,43 +1,43 @@
 .login {
-  width: 450px;
+    width: 450px;
 }
 .login > div {
-  height: 90px;
+    height: 90px;
 }
 .disabled {
-  cursor: default;
-  opacity: 0.5;
-  pointer-events: none;
+    cursor: default;
+    opacity: 0.5;
+    pointer-events: none;
 }
 
 /* Login Light */
 .loginLight {
-  background: #fff;
+    background: #fff;
 }
 .loginLight > .login {
-  background: #d5d6d9;
-  box-shadow: 4px 4px 15px rgb(0, 0, 0, 0.4);
+    background: #d5d6d9;
+    box-shadow: 4px 4px 15px rgb(0, 0, 0, 0.4);
 }
 .loginLight > .login h4 {
-  color: #000;
+    color: #000;
 }
 .loginLight > .login input,
 .loginLight > .login input::placeholder,
 .loginLight > .login input,
 .loginLight > .login button {
-  border-color: #0009;
-  color: #0009;
+    border-color: #0009;
+    color: #0009;
 }
 .loginLight > .login .btn_container button:last-child:hover {
-  color: rgba(255, 0, 0);
-  border-color: rgba(255, 0, 0) !important;
+    color: rgba(255, 0, 0);
+    border-color: rgba(255, 0, 0) !important;
 }
 .loginLight > .login .btn_container button:first-child:hover {
-  color: #008cff;
-  border-color: #008cff !important;
+    color: #008cff;
+    border-color: #008cff !important;
 }
 .loginLight > .login input:focus,
 .loginLight > .login input:focus ~ button,
 .loginLight > .login input:focus::placeholder {
-  color: #008cff;
+    color: #008cff;
 }

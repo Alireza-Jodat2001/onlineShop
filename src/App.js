@@ -6,16 +6,16 @@ import { EventContextProvider } from "./hook/Context/EventContext";
 import { ContextApiProvider } from "./hook/Context/ContextApi";
 
 export default function App() {
-  return (
-    <ContextApiProvider>
-      <EventContextProvider>
-        <LoginContextProvider>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/Login" element={<Login />} />
-          </Routes>
-        </LoginContextProvider>
-      </EventContextProvider>
-    </ContextApiProvider>
-  );
+    return (
+        <ContextApiProvider>
+            <EventContextProvider>
+                <LoginContextProvider>
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/Login" element={<Login />} />
+                    </Routes>
+                </LoginContextProvider>
+            </EventContextProvider>
+        </ContextApiProvider>
+    );
 }

@@ -3,76 +3,68 @@
 @tailwind components;
 @tailwind utilities;
 
-/*
-SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
-
-FONT SIZE SYSTEM (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-*/
-
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box !important;
-  list-style-type: none !important;
-  text-decoration: none !important;
-  transition: all 0.3s;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box !important;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    transition: all 0.3s;
 }
 
 body {
-  min-height: 100vh;
+    min-height: 100vh;
 }
 
 #root {
-  min-height: 100vh;
+    min-height: 100vh;
 }
 
 @keyframes fade-out {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @keyframes error {
-  25% {
-    transform: translateX(10px);
-  }
-  50% {
-    transform: translateX(0px);
-  }
-  75% {
-    transform: translateX(10px);
-  }
-  100% {
-    transform: translateX(0px);
-  }
+    25% {
+        transform: translateX(10px);
+    }
+    50% {
+        transform: translateX(0px);
+    }
+    75% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
 }
 
 * .open {
-  animation: fade-in 0.3s forwards;
+    animation: fade-in 0.3s forwards;
 }
 
 * .closing {
-  animation: fade-out 0.3s forwards;
+    animation: fade-out 0.3s forwards;
 }
 
 * .close {
-  display: none;
+    display: none;
 }
 
 .animation-error {
-  animation: error 0.3s forwards;
+    animation: error 0.3s forwards;
 }

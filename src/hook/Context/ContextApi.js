@@ -4,11 +4,11 @@ import useAxios from "../axios/useAxios";
 export const ContextApi = createContext();
 
 export function ContextApiProvider({ children }) {
-  const { response, isLoading, error } = useAxios("/products");
+    const { response, isLoading, error } = useAxios("/products");
 
-  const value = {
-    response,
-  };
+    const value = {
+        response,
+    };
 
-  return <ContextApi.Provider value={value}>{children}</ContextApi.Provider>;
+    return <ContextApi.Provider value={value}>{children}</ContextApi.Provider>;
 }

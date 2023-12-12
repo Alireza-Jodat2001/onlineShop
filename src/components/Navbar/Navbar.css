@@ -1,20 +1,21 @@
 /* Light Mode */
-.navLight form, 
-.navLight form input, 
-.navLight form button, 
-.navLight .btn_container button:hover, 
+.navLight form,
+.navLight form input,
+.navLight form button,
+.navLight .btn_container button:hover,
 .navLight .btn_container > div:hover {
-    background: #FFF;
+    background: #fff;
 }
-.navLight , .navLight form span {
+.navLight,
+.navLight form span {
     background: #d5d6d9;
 }
 .navLight .logo {
     color: #149eca;
 }
-.navLight form input, 
-.navLight form button, 
-.navLight form input::placeholder, 
+.navLight form input,
+.navLight form button,
+.navLight form input::placeholder,
 .navLight form span {
     color: #9099aa;
 }

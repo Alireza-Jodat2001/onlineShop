@@ -6,11 +6,11 @@ import { ContextApi } from "../../hook/Context/ContextApi";
 import "./home.css";
 
 export default function Home() {
-  return (
-    <div className="dark:bg-gray-700">
-      <Backdrop />
-      <Navbar searchbar={true} to={"/Login"} textButton={"Login"} />
-      <CartProducts />
-    </div>
-  );
+    return (
+        <div className="dark:bg-gray-700">
+            <Backdrop />
+            <Navbar searchbar={true} to={"/Login"} textButton={"Login"} />
+            <CartProducts />
+        </div>
+    );
 }
